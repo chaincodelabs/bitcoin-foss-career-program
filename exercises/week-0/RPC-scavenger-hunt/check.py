@@ -20,7 +20,9 @@ tests = [
     ["Only one single output remains unspent from block 123,321. What address is it sent to?",
     "1FPDNNmgwEnKuF7GQzSqUcVQdzSRhz4pgX"],
     ["Create a 1-of-4 P2SH multisig address from the public keys in the four inputs of tx 37d966a263350fe747f1c606b159987545844a493dd38d84b070027a895c4517",
-    "3GyWg1CCD3RDpbwCbuk9TTRQptkRfczDz8"]
+    "3GyWg1CCD3RDpbwCbuk9TTRQptkRfczDz8"],
+    ["Which public key signed input 0 in tx e5969add849689854ac7f28e45628b89f7454b83e9699e551ce14b6f90c86163?",
+    "025d524ac7ec6501d018d322334f142c7c11aa24b9cffec03161eca35a1e32a71f"]
 ]
 
 for i, test in enumerate(tests):
