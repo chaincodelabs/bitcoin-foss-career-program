@@ -16,7 +16,11 @@ tests = [
     ["How many new outputs were created by block 123,456?",
     "24"],
     ["Which tx in block 424356 spends the coinbase output of block 424243?",
-    "ea4168ea51f65a77bd0ac2ddc7f0f837b01650dc4f11bc630541d6698ca50e32"]
+    "ea4168ea51f65a77bd0ac2ddc7f0f837b01650dc4f11bc630541d6698ca50e32"],
+    ["Only one single output remains unspent from block 123,321. What address is it sent to?",
+    "1FPDNNmgwEnKuF7GQzSqUcVQdzSRhz4pgX"],
+    ["Create a 1-of-4 P2SH multisig address from the public keys in the four inputs of tx 37d966a263350fe747f1c606b159987545844a493dd38d84b070027a895c4517",
+    "3GyWg1CCD3RDpbwCbuk9TTRQptkRfczDz8"]
 ]
 
 for i, test in enumerate(tests):
