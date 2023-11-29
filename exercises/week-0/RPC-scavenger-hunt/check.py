@@ -22,7 +22,9 @@ tests = [
     ["Create a 1-of-4 P2SH multisig address from the public keys in the four inputs of tx 37d966a263350fe747f1c606b159987545844a493dd38d84b070027a895c4517",
     "3GyWg1CCD3RDpbwCbuk9TTRQptkRfczDz8"],
     ["Which public key signed input 0 in tx e5969add849689854ac7f28e45628b89f7454b83e9699e551ce14b6f90c86163?",
-    "025d524ac7ec6501d018d322334f142c7c11aa24b9cffec03161eca35a1e32a71f"]
+    "025d524ac7ec6501d018d322334f142c7c11aa24b9cffec03161eca35a1e32a71f"],
+    ["Using descriptors, compute the 100th taproot address dervied from this extended public key: xpub6Cx5tvq6nACSLJdra1A6WjqTo1SgeUZRFqsX5ysEtVBMwhCCRa4kfgFqaT2o1kwL3esB1PsYr3CUdfRZYfLHJunNWUABKftK2NjHUtzDms2",
+    "bc1p3yrtpvv6czx63h2sxwmeep8q98h94w4288fc4cvrkqephalydfgszgacf9"]
 ]
 
 for i, test in enumerate(tests):

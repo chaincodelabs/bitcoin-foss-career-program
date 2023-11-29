@@ -29,7 +29,7 @@ Read:
 
 Exercises:
 TODO:
-- [ ] Write a bash script that executes multiple `bitcoin-cli` RPCs
+- [Bitcoin Core RPC Scavenger Hunt](exercises/week-0/RPC-scavenger-hunt)
 - [ ] Submit a patch to Bitcoin Core that makes exactly one specific functional or unit test fail
 
 
