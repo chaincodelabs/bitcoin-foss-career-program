@@ -5,9 +5,9 @@
 
 Technical challenges:
 
-[Block Builder](https://github.com/chaincodelabs/code-challenge)
+[Block Builder](https://github.com/chaincodelabs/code-challenge/tree/master/block_constructor)
 
-[TX Signer](https://github.com/chaincodelabs/code-challenge)
+[TX Signer](https://github.com/chaincodelabs/code-challenge/tree/master/sign_transactions)
 
 TODO:
 - [ ] Coin selection
@@ -27,13 +27,13 @@ Read:
 - Ch. 2 How Bitcoin Works
 - Ch. 3 Bitcoin Core: The Reference Implementation
 
-Provided Infastructure:
+Provided Infrastructure:
 Access mainnet RPC through [proxy](https://github.com/pinheadmz/rpc-auth-proxy)
 currently running at `34.172.95.104`
 
 Exercises:
-- [Bitcoin Core RPC Scavenger Hunt](exercises/week-0/RPC-scavenger-hunt)
-- [Bitcoin Core Test the Test](exercises/week-0/Bitcoin-Core-test-the-test)
+- [Bitcoin Core RPC Scavenger Hunt](exercises/RPC-scavenger-hunt)
+- [Bitcoin Core Test the Test](exercises/Bitcoin-Core-test-the-test)
 
 
 ### Week 1: Cryptography
@@ -43,8 +43,12 @@ Read:
 - Ch. 5 Wallet Recovery
 - Ch. 8 Digital Signatures
 
+Provided Infrastructure:
+We will host a custom signet miner node with a pre-generated blockchain
+full of UTXOs for wallet recovery and script challenges.
+
 Exercises:
-TODO:
+- [ ] Create a wallet part 1: keys, addresses, and signatures
 
 
 ### Week 2: Transactions
@@ -57,8 +61,7 @@ Extra tutorial:
 [Transaction exercises](https://github.com/chaincodelabs/bitcoin-tx-tutorial)
 
 Exercises:
-- [ ] Script challenges (here is a script, spend it)
-- [ ] Group Project: create and spend from a multisig on a sandboxed signet
+- [ ] Create a wallet part 2: scripts, multisig, and transactions
 
 
 ### Week 3
@@ -72,8 +75,8 @@ Read:
 Exercises (pick 1 of 4):
 - [ ] Fee estimation
 - [ ] 51% attacks: - mine a block and reorg the chain with a double spend
-- [ ] mini p2p node: write a script that connects to bitcoin mainnet, version ack etc
-
+- [ ] [Tiny Python Bitcoin peer](https://github.com/willcl-ark/tinybitcoinpeer)
+- [ ] [Larry's mining simulator](https://github.com/LarryRuane/minesim)
 
 ### Week 4
 
