@@ -33,7 +33,7 @@ currently running at `34.172.95.104`
 
 Exercises:
 - [Bitcoin Core RPC Scavenger Hunt](exercises/RPC-scavenger-hunt)
-- [Bitcoin Core Test the Test](exercises/Bitcoin-Core-test-the-test)
+- [Bitcoin Core Test the Test](https://github.com/chaincodelabs/bitcoin-core-test-the-test)
 
 
 ### Week 1: Cryptography
