@@ -82,6 +82,13 @@ Exercises (pick 1 of 4):
 
 Read:
 - Ch. 14 Second-Layer Applications
+  - Optional sections (can be skipped): 
+    - Colored coins
+    - Single-use seals
+    - Pay-to-Contract
+    - Client-side validation
+    - RGB
+    - Taproot Assets
 
 Exercises:
 - [ ] Invoices, spontaneous payments oriented, see https://buildonln.com/
