@@ -91,4 +91,4 @@ Read:
     - Taproot Assets
 
 Exercises:
-- [ ] Invoices, spontaneous payments oriented, see https://buildonln.com/
+- [Lightning route builder](exercises/lightning-route-builder)
