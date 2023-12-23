@@ -25,7 +25,7 @@ Access mainnet RPC through [proxy](https://github.com/pinheadmz/rpc-auth-proxy)
 currently running at `34.172.95.104`
 
 Exercises:
-- [Bitcoin Core RPC Scavenger Hunt](exercises/RPC-scavenger-hunt)
+- [Bitcoin Core RPC Scavenger Hunt](https://github.com/chaincodelabs/rpc-scavenger-hunt)
 
 
 ### Week 1: Cryptography
