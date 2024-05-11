@@ -81,4 +81,7 @@ Read:
     - RGB
     - Taproot Assets
 
-Exercises **TBA**
+Exercises:
+- [Lightning scavenger hunt
+](https://github.com/chaincodelabs/lightning-scavenger-hunt)
+- [Lightning route builder](https://github.com/chaincodelabs/lightning-route-builder)
